@@ -1,0 +1,26 @@
+
+.................BRANCH....................
+
+git branch 					# Video#54 to check where you are and list branches
+git branch newBranchName 			# Video#54 to create a new branch and start working
+git checkout newBranchName 			# Change to the new branch ... and start working ... git add .
+git checkout master 				# Video#55 to move to a master branch
+git merge newBranchName 			# To merge two branches
+git commit -am "Commit the merged branches"
+git push -u origin master
+git branch -d newBranchName 
+
+git checkout -b branch2 # Create a new branch named <new_branch> and start it at <start_point>
+
+FIX CONFLICTS (in the conflicting files) + git status + git commit -a -m "resolved conflicts"
+git commit -a -m "updated css for common elements in bugFix" # make a commit
+git branch --merged 				# Already been merged
+git branch --no-merged 				# Not been merged
+git branch -d branch1 				# Deletes the local branch
+git branch -D branch2 				#
+git log 					# Check logs
+git pull 					# Fetch from and integrate with another repository or a local branch
+=== TAGS ===
+git tag -a v2.0.8 -m "Version Input, Output y Viewchild" # create a tag
+git tag # see the tags
+git push --tags # push the tags to GitHub
